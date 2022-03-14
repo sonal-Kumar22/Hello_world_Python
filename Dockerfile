@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:alpine3.14
 RUN  mkdir WORK_REPO
 RUN  cd  WORK_REPO
 WORKDIR  /WORK_REPO
